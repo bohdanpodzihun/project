@@ -255,3 +255,53 @@ body {
         margin-right: 30px;
     }
 }
+
+.bg {
+    background: url(../img/businessConsultingBG.png);
+    background-repeat: no-repeat;    
+    background-position: bottom ;
+}
+
+.businessConsultingH3 {
+    width: 1264px;
+    margin-bottom: 57px;
+}
+
+.businessConsultingGridImg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+
+.businessConsultigGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.businessConsultigGridItemText {
+    margin-top: 62px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    width: 400px;
+    height: 266px;
+}
+.businessConsultigGridItemH4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 39px;
+    margin-left: 16px;
+}
+.businessConsultigGridItemP {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 16px;
+    margin-top: 30px;
+}
