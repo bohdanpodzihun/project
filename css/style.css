@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5,h6, p {
+    margin: 0;
+    padding: 0;;
+}
+body {
+    margin: 0;
+    font-family: 'Nexa';
+    font-weight: 400;
+}
+
+.header {
+}
+.headerFlex {
+}
+.headerFlexItem {
+}
+.headerLogo {
+}
+.headerLogoColor {
+}
+.menu {
+}
+.firstMenu {
+}
+.otherMenu {
+}
+.headerAboutFlex {
+}
+.headerAboutFlexItem {
+}
+.headerAboutH1 {
+}
+.headerAboutP {
+}
+.headerAboutBtn {
+}
+.headerAboutImg {
+}
