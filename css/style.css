@@ -21,31 +21,110 @@ body {
     font-weight: 400;
 }
 
-.header {
+:root {
+    --redColor: #FF0000;
 }
+
 .headerFlex {
+    display: flex;
+    justify-content: space-between;
+
 }
+
 .headerFlexItem {
+    margin-top: 77px;
+    margin-bottom: 110px;
 }
+
 .headerLogo {
+    margin-left: 170px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
 }
+
 .headerLogoColor {
+    color: var(--redColor);
 }
+
 .menu {
+    margin-right: 170px;
 }
+
 .firstMenu {
+    color: var(--redColor);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 72px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
 }
+
 .otherMenu {
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 72px;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;    
+    line-height: 18px;
 }
+
+.otherMenu:last-child {
+    margin-right: 0;
+}
+
 .headerAboutFlex {
+    display: flex;
+    justify-content: space-between;
 }
-.headerAboutFlexItem {
-}
+
 .headerAboutH1 {
+    margin-top: 90px;
+    margin-left: 170px;
+    width: 297px;
+    height: 344px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
 }
+
 .headerAboutP {
+    margin-left: 170px;
+    color: #C4C4C4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
 }
+
 .headerAboutBtn {
+    margin-top: 36px;
+    margin-left: 170px;
+    filter: drop-shadow(0px 4px 4px 
+    rgba(0, 0, 0, 0.25)) 
+    drop-shadow(0px 4px 4px 
+    rgba(0, 0, 0, 0.25)) 
+    drop-shadow(0px 4px 4px 
+    rgba(0, 0, 0, 0.25));
+    width: 204px;
+    height: 92px;
+    background-color: white;
+    border: 3px solid var(--redColor);
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
 }
+
 .headerAboutImg {
+    margin-right: 131px;
 }
