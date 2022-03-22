@@ -128,3 +128,31 @@ body {
 .headerAboutImg {
     margin-right: 131px;
 }
+
+@media screen and (max-width: 1280px) {
+    .headerLogo {
+        margin-right: 30px;
+    }
+
+    .firstMenu {
+        margin-right: 15px;
+    }
+
+    .otherMenu {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerAboutFlex {
+        flex-wrap: wrap;
+    }
+    
+    .headerAboutBtn {
+        margin-bottom: 40px;
+    }
+
+    .headerLogo {
+        margin-right: 70px;
+    }
+}
