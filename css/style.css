@@ -305,3 +305,64 @@ body {
     margin-left: 16px;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1280px) {
+    .businessConsultingH3 {
+        width: 600px;
+        margin-bottom: 200px;
+    }
+
+    .businessConsultingGridImgItem {
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .businessConsultigGridItemText {
+        width: 300px;
+        height: 320px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .businessConsultingGridImg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .businessConsultigGridItemH4 {
+        font-size: 24px;
+    }
+    
+    .businessConsultigGridItemP {
+        font-size: 18px;
+    }
+
+    .businessConsultigGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .businessConsultigGridItemText {
+        border-color: #747576;
+    }
+
+    .businessConsultigGridItemText:last-child {
+        border-color: white;
+    }
+
+    .businessConsultigGridItemH4 {
+        color: black;
+    }
+
+    .businessConsultigGridItemP {
+        color: #000;
+    }
+
+    .itemLast {
+        color: white;
+    }
+
+    .itemLast {
+        color: white;
+    }
+}
