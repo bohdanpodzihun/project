@@ -452,3 +452,52 @@ body {
         width: 400px;
     }
 }
+
+.welcomeTOuCommunityBG {
+    height: 1080px;
+    background: url(../img/welcomeToOurCommunityBG.png);
+    background-repeat: no-repeat;
+}
+
+.welcomeTOuCommunityP {
+    text-transform: capitalize;
+    padding-top: 287px;
+    padding-bottom: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--redColor);
+    text-align: center;
+}
+.welcomeTOuCommunityH2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+.welcomeTOuCommunityH3 {
+    margin: 0 auto;
+    width: 1264px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 1280px) {
+    .welcomeTOuCommunityH3 {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .welcomeTOuCommunityH3 {
+        width: 400px;
+    }
+}
