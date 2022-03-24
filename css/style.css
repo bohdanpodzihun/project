@@ -453,13 +453,13 @@ body {
     }
 }
 
-.welcomeTOuCommunityBG {
+.welcomeToOurCommunityBG {
     height: 1080px;
     background: url(../img/welcomeToOurCommunityBG.png);
     background-repeat: no-repeat;
 }
 
-.welcomeTOuCommunityP {
+.welcomeToOurCommunityP {
     text-transform: capitalize;
     padding-top: 287px;
     padding-bottom: 37px;
@@ -470,7 +470,7 @@ body {
     color: var(--redColor);
     text-align: center;
 }
-.welcomeTOuCommunityH2 {
+.welcomeToOurCommunityH2 {
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
@@ -479,7 +479,7 @@ body {
     color: white;
     padding-bottom: 60px;
 }
-.welcomeTOuCommunityH3 {
+.welcomeToOurCommunityH3 {
     margin: 0 auto;
     width: 1264px;
     font-style: normal;
@@ -491,13 +491,13 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-    .welcomeTOuCommunityH3 {
+    .welcomeToOurCommunityH3 {
         width: 600px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .welcomeTOuCommunityH3 {
+    .welcomeToOurCommunityH3 {
         width: 400px;
     }
 }
