@@ -501,3 +501,59 @@ body {
         width: 400px;
     }
 }
+
+.footer {
+    border-top: 6px solid var(--redColor);
+    height: 161px;
+}
+
+.footerFlex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.footerP {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1A1A1A;
+    text-align: center;
+}
+
+.footerFlexRight {
+    display: flex;
+}
+
+.footerFlexRightItem {
+    margin-left: 52px;
+}
+
+.footerFlexRightItemP {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.footerFlexIcon {
+    display: flex;
+}
+
+.footerFlexIconItem {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .footerFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerFlexItem:first-child {
+        margin-bottom: 10px;
+    }
+}
